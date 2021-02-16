@@ -1,0 +1,31 @@
+.realization{
+    background-color: #fbfaf8;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.realization_head{
+    color: #555555;
+    font-family: 'raleway', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    padding: 83px 0 0 0;
+    text-align: center;
+    width: 100%;
+}
+.realization_txt{
+    color: #8c8c8c;
+    font-family: 'montserrat', serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 28px;
+    width: 757px;
+    padding: 24px 0 40px 0;
+    text-align: center;
+    margin: 0;
+}
+.realization_img{
+    width: 100%;
+}

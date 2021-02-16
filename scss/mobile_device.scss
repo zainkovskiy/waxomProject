@@ -1,0 +1,51 @@
+.mobile_device{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px 0 0 0;
+}
+.mobile_device_wrp{
+    width: 657px;
+    align-self: center;
+}
+.mobile_device_head{
+    font-family: 'raleway';
+    font-weight: 600;
+    font-style: normal;
+    font-size: 30px;
+    color: #555555;
+}
+.mobile_device_txt{
+    font-family: 'montserrat';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    color: #8c8c8c;
+    line-height: 28px;
+    margin: 40px 0 45px 0;
+}
+.mobile_device_list{
+    margin: 0;
+    padding: 0 0 0 80px;
+    list-style-type: none;
+}
+.mobile_device_item{
+    font-family: 'montserrat';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 16px;
+    color: #8c8c8c;
+    line-height: 32px;
+    position: relative;
+}
+.mobile_device_item::before{
+    content: "";
+    width: 21px;
+    height: 21px;
+    background-image: url(../img/mobile_device_list.svg);
+    position: absolute;
+    top: 5px;
+    left: -50px;
+}
+.mobile_device_img_mobile{
+    display: none;
+}

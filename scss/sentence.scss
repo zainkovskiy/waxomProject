@@ -1,0 +1,55 @@
+.sentence{
+    padding: 80px 0 80px 0;
+}
+.sentence_card_list{
+    display: flex;
+}
+.sentence_card{
+    display: flex;
+    flex-direction: column;
+    max-width: 45%;
+    align-items: center;
+    justify-content: space-between;
+}
+.sentence_card::after{
+    content: '';
+    display: block;
+    width: 70px;
+    height: 3px;
+    background-color: #f1eee9;
+    transition: background-color .3s;
+}
+.sentence_card:hover .sentence_svg{
+    fill: #c7b299;
+    
+}
+.sentence_card:hover .sentence_head{
+    color: #c7b299;
+}
+.sentence_card:hover::after{
+    background-color: #c7b299;
+}
+.sentence_svg{
+    fill: #555555;
+    transition: fill .3s;
+}
+.sentence_head{
+    margin: 29px 0 19px 0;
+    color: #555555;
+    font-family: 'raleway', sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 22px;
+    text-align: center;
+    transition: color .3s;
+}
+.sentence_txt{
+    margin: 0 0 30px 0;
+    text-align: center;
+    font-family: 'montserrat', serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #8c8c8c;
+    font-size: 14px;
+    line-height: 24px;
+}

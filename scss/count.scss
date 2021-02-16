@@ -1,0 +1,41 @@
+.count{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to right, #211b19 0%, #4e3427 100%);
+    padding: 60px 0 60px 0;
+
+
+}
+.count_card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 50px 0 50px;
+}
+.count_card::after {
+    content: '';
+    display: block;
+    width: 30px;
+    height: 2px;    
+    background-color: #ffffff;
+}
+.count_number{
+    font-family: 'montserrat';
+    font-weight: 400;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 36px;
+    color: #ffffff;
+    margin: 30px 0 20px 0;
+}
+.count_txt{
+    font-family: 'montserrat';
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #c7b299;
+    margin: 0 0 30px 0;
+}

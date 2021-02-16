@@ -1,0 +1,56 @@
+.reklama_back{
+    background-image: linear-gradient(to right, #211b19 0%, #4e3427 100%); 
+}
+.reklama{
+    display: flex;
+    justify-content: space-between;
+}
+.reklama_wrp{
+    padding: 48px 0 0 0;
+}
+.reklama_txt_head{
+    font-family: 'raleway', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 28px;
+}
+.reklama_txt_waxom{
+    font-family: 'raleway', sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: #c7b299;
+}
+.reklama_txt{
+    font-family: 'montserrat', serif;
+    font-weight: 300;
+    font-style: normal;
+    color: #615855;
+    font-size: 18px;
+    margin: 8px 0 49px 0;
+}
+.reklama_btn{
+    align-self: center;
+    box-shadow: inset 0 -3px 0 #736357;
+    border-radius: 3px;
+    padding: 14px 28px;
+    background-color: #998675;
+    outline: none;
+    border: none;
+    font-family: 'raleway', sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    color: #ffffff;
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 23px;
+    transition: background-color .3s;
+}
+.reklama_btn:hover{
+    background-color: #998675 + 20;
+}
+.reklama_btn:active{
+    background-color: #998675 + 20;
+    box-shadow: inset 0 3px 0 #736357;
+    padding: 16px 28px 12px 28px;
+}
